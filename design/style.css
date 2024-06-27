@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(219, 228, 255);
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.flex-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-code-component {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
+
+}
+
+.qr-image {
+    max-width: 100%;
+    margin: 10px 10px 0 10px;
+    border-radius: 10px;
+}
+
+.qr-code-caption {
+    margin: 15px;
+    line-height: 1.5em;
+}
+
+.qr-code-caption h3 {
+    margin: 0px;
+    letter-spacing: 1px;
+}
+
+.qr-code-caption p {
+    margin: 10px 0;
+}
+
+
+
